@@ -4,15 +4,16 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Android emulator</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    fontSize:10,
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
   },
